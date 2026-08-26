@@ -1,0 +1,33 @@
+# 시스템이 보내는 메일.
+
+발송:
+  방식: api
+  공급자: mailgun
+  지역: eu
+  발신주소: noreply@example.co.kr
+  발신이름: 사내업무시스템
+  회신주소: ops@example.co.kr
+  키: ${MAIL_API_KEY}
+  시간초과_초: 10
+  재시도: 2
+
+받는사람:
+  운영알림: ops@example.co.kr
+  장애알림: oncall@example.co.kr
+  정산알림: finance@example.co.kr
+  보안알림: ops@example.co.kr      # 보안 담당자 주소가 따로 없습니다
+
+서식:
+  주문접수: 서식/주문접수.html
+  배송안내: 서식/배송안내.html
+  세금계산서: 서식/세금계산서.html
+  비밀번호재설정: 서식/비밀번호재설정.html
+
+제한:
+  분당: 300
+  하루: 20000
+  한번에_받는사람: 50
+
+기록:
+  발송이력_보관일수: 90
+  본문_보관: false        # 본문은 남기지 않습니다

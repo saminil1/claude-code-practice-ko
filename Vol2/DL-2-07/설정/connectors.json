@@ -1,0 +1,47 @@
+{
+ "connectors": [
+  {
+   "name": "doc-summarizer",
+   "provider": "외부 API",
+   "used_by": [
+    "법무팀",
+    "기획팀"
+   ]
+  },
+  {
+   "name": "ticket-classifier",
+   "provider": "외부 API",
+   "used_by": [
+    "CS팀"
+   ]
+  },
+  {
+   "name": "code-assistant",
+   "provider": "외부 API",
+   "used_by": [
+    "개발팀"
+   ]
+  },
+  {
+   "name": "translate-svc",
+   "provider": "외부 API",
+   "used_by": [
+    "해외영업팀"
+   ]
+  },
+  {
+   "name": "meeting-notes",
+   "provider": "내장",
+   "used_by": [
+    "전사"
+   ]
+  },
+  {
+   "name": "audit-automation",
+   "provider": "내부 구축",
+   "used_by": [
+    "정보보안팀"
+   ]
+  }
+ ]
+}

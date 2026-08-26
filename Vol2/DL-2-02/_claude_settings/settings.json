@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Write(./원본/**)",
+      "Edit(./원본/**)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(rmdir:*)"
+    ]
+  }
+}

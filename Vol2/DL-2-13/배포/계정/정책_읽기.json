@@ -1,0 +1,42 @@
+{
+  "Version": "2012-10-17",
+  "설명": "읽기 전용 정책.",
+  "Statement": [
+    {
+      "Sid": "읽기허용",
+      "Effect": "Allow",
+      "Action": [
+        "*:Get*",
+        "*:List*",
+        "*:Describe*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "저장소_내려받기",
+      "Effect": "Allow",
+      "Action": [
+        "object:GetObject"
+      ],
+      "Resource": [
+        "reports-internal/*",
+        "logs-archive/*"
+      ]
+    },
+    {
+      "Sid": "쓰기금지",
+      "Effect": "Deny",
+      "Action": [
+        "*:Put*",
+        "*:Delete*",
+        "*:Create*",
+        "*:Update*"
+      ],
+      "Resource": "*"
+    }
+  ],
+  "비고": [
+    "`*:Get*` 는 비밀 값을 읽는 동작(secrets:GetSecretValue)도",
+    "함께 허용합니다. 읽기 전용이라는 이름과 달리 넓습니다."
+  ]
+}

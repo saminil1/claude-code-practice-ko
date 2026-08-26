@@ -1,0 +1,26 @@
+{
+  "Version": "2012-10-17",
+  "설명": "관리자 정책. 모든 동작을 허용합니다.",
+  "Statement": [
+    {
+      "Sid": "전체허용",
+      "Effect": "Allow",
+      "Action": "*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "결제정보만_금지",
+      "Effect": "Deny",
+      "Action": [
+        "billing:UpdatePaymentMethod",
+        "billing:CloseAccount"
+      ],
+      "Resource": "*"
+    }
+  ],
+  "비고": [
+    "조건(Condition)이 하나도 없습니다.",
+    "출발지 주소 제한도, 다중 인증 요구도 걸려 있지 않습니다.",
+    "이 정책은 role-deploy · role-backup · role-admin 세 곳이 씁니다."
+  ]
+}

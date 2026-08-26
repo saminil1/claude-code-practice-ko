@@ -1,0 +1,13 @@
+Date,Dept,Room,Start,End,Purpose
+2026-08-03,Sales 1,Room A,09:00,10:30,Weekly meeting
+2026-08-03,Gen affairs,Room B,14:00,15:00,Supply review
+2026-08-04,HR,Room A,10:00,11:00,Interview
+2026-08-04,Sales 1,Room A,10:30,12:00,Client meeting
+2026-08-05,Gen affairs,Room A,09:00,10:00,Monthly report
+2026-08-05,HR,Room B,13:00,17:00,Training
+2026-08-06,Sales 1,Room B,09:00,09:30,Standup
+2026-08-06,Sales 1,Room A,14:00,15:00,Proposal review
+2026-08-07,Gen affairs,Room A,09:00,10:00,Monthly report
+2026-08-07,HR,Room A,10:00,11:30,Interview
+2026-08-10,Sales 1,Room A,09:00,10:30,Weekly meeting
+2026-08-10,Gen affairs,Room B,11:00,12:00,Contract review

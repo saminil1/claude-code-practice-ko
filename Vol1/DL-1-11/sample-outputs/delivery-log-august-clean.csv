@@ -1,0 +1,10 @@
+Vendor,Item,Qty,Unit,Delivered,Owner,Type
+Hanbit Trading Co.,A4 paper,10,25000,2026-08-03,Kim,delivery
+Hanbit Trading Co.,A4 paper,5,25000,2026-08-05,Kim,delivery
+Green Mart,A4 paper,8,25000,2026-08-04,Lee,delivery
+Daesung Planning,Toner,1,89000,2026-08-06,Park,delivery
+Namsan Industries,Clear folder,15,800,2026-08-07,Choi,delivery
+Namsan Industries,A4 paper,-3,25000,2026-08-07,Choi,return
+Mirae Printing,Stapler,3,45000,2026-08-08,Jung,delivery
+Hanbit Trading Co.,Highlighter,20,1200,2026-08-04,Kim,delivery
+Green Mart,Toner,2,89000,2026-08-05,Lee,delivery
